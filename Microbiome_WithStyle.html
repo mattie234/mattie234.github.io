@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<div class="page-wrapper">
+<html>
+<head>
+<title>Microbiome</title>
+</head>
+<body>
+<div class="preamble" id="zen-preamble" role="article">
+<h1>Phylum-level Analysis Can Distinguish Skin Microbial Communities </h1>
+
+<p>Human and environmental microbiome studies use high-throughput DNA sequencing to 
+characterize microbial communities present on and in the human body. The sequences 
+obtained are classified by comparing them to a database of known sequences. 
+Hierarchical biological groupings are known as taxonomy. Taxonomic ranks range from very large 
+categories, such as Phylum and Order,  which contain many organisms with varying degrees of 
+relatedness, to smaller, fine-grained categories, such as Genus and Species, which contain 
+organisms that are very closely related <a href="https://www.ncbi.nlm.nih.gov/books/NBK8817/">[1]</a>.</p>
+<p>Fierer et al. compared microbial communities on the fingertips and computer keyboards of
+ 3 individuals, demonstrating that differences in microbiomes between individuals were far 
+ greater than differences between individuals [2]. Microbial classification was performed by 
+ first clustering sequences to form operational taxonomic units (OTUs), which are a specific 
+ taxonomic indicator, approximately equivalent to the species level [2]. 
+ OTUs were then compared to a sequence database to assign taxonomy [2]. 
+ Comparisons between communities at different skin and keyboard sites were calculated using 
+ Principal Components Analysis (PCA) based on Unifrac distances [2]. Unifrac is a metric that 
+ accounts for phylogenetic relationships between organisms – this means that two communities may not 
+ contain the same organisms, but if they contain similar organisms, they are considered to be more 
+ closely related [3].</p>
+ </div>
+<h2>Purpose of the current work</h2>
+<p>Unifrac distances can be difficult both to compute and understand, and OTU level classifications 
+can provide hundreds to thousands of variables as input to PCA. The purpose of the current
+ exploration was to determine if the unique signals in individual skin microbiomes were still 
+ apparent using coarse-grained Phylum-level classifications as input to PCA with standard 
+ Euclidean distances. The data was filtered to include only the 8 most abundant phyla, 
+ and raw sequence counts were normalized to relative abundances to account for varying 
+ sequencing efforts between samples. </p> 
+<h2>View the results</h2>
+<p>Use the links in the menu to view the results of this exploration.</p>
+<h2>Summary and Conclusions</h2>
+<p>Microbial communities were characteristic of individuals as opposed to their site of origin, 
+and these differences were driven by discernable variations in relative abundances at coarse-grained 
+taxonomic levels. OTU determination and classification can be fraught with inconsistencies related 
+to clustering algorithms as well as the content of databases used to assign taxonomy, 
+which may not provide taxonomic resolution at the same level for all sequences 
+and do not always agree on classifications [5], [6]. Our work demonstrates that 
+Phylum-level classifications, which are larger in scope and are more likely to agree across methods,
+ preserved the microbial community differences observed in the original study. 
+ This suggests that more generally, microbiome study data can be aggregated from 
+ initial OTU-level analysis to higher order taxonomic groupings without dramatic loss of 
+ drivers of community difference. </p>
+
+<aside class="sidebar" role="complementary">
+		<div class="wrapper">
+				<h3>Navigate to:</h3>
+				<nav role="navigation">
+					<ul>
+					<li>
+						<a href="Microbiome_WithStyle.html">Main Page</a> 
+					</li>					<li>
+						<a href="Correlations.html">Pairwise relationships</a> 
+					</li>					<li>
+						<a href="PCA_Indiv.html">Data by Individual</a>					
+					</li>					<li>
+						<a href="PCA_Site.html">Data by Site</a>					
+					</li>					</ul>
+				</nav>
+			</div>
+</body>
+</html>
