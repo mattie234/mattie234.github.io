@@ -59,7 +59,17 @@ figcaption {
   font-size: small;
 }
 
+/* figures */
+
 #figure1 {
+	width: 100%;  height: auto;
+}
+
+#figure2 {
+	width: 100%;  height: auto;
+}
+
+#figure3 {
 	width: 100%;  height: auto;
 }
 
