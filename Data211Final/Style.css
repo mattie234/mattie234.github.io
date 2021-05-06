@@ -59,7 +59,10 @@ figcaption {
   font-size: small;
 }
 
-#figure1 {  width: 100%;  height: auto; } 
+#figure1 {
+	width: 100%;  height: auto;
+}
+
 /* specific divs */
 
 .center {
