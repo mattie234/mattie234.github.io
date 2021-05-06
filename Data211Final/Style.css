@@ -58,6 +58,11 @@ figcaption {
   color: black;
   font-size: small;
 }
+
+img {
+	width:auto;
+	height: auto;
+}
 /* specific divs */
 
 .center {
