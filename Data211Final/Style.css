@@ -17,7 +17,7 @@ body {
 	font: 100% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753;
-	background: #fff url(https://media.istockphoto.com/vectors/virus-bacteria-vector-background-cells-disease-outbreak-coronavirus-vector-id1211544068?k=6&m=1211544068&s=612x612&w=0&h=IvZo-HIL4o6qhUaTno8SKcnPmBf6niW1YEBjBzDABHk=) no-repeat bottom right;
+	background: #fff url("virus2.jpeg") no-repeat bottom right;
 	margin: 0;
 	padding: 0;
 	}
@@ -83,7 +83,7 @@ figcaption {
   }
 
 .page-wrapper {
-	background: url("virus2.jpeg") no-repeat top left;
+	background: url("virus.jpeg") no-repeat top left;
 	padding: 0 175px 0 110px;
 	margin: 0;
 	position: relative;
@@ -156,7 +156,7 @@ footer a:link, footer a:visited {
 	}
 .sidebar .wrapper {
 	font: 10px verdana, sans-serif;
-	background: transparent url("virus.jpeg") top left repeat-y;
+	background: transparent url(http://csszengarden.com/001/paper-bg.jpg) top left repeat-y;
 	padding: 10px;
 	margin-top: 150px;
 	width: 130px;
