@@ -17,7 +17,10 @@ body {
 	font: 100% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753;
-	background-image: #fff url("corona.png") no-repeat bottom right;
+	background-image: #fff url("corona.png"); /*background-image: #fff url("corona.png") no-repeat bottom right*/
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom right;
 	margin: 0;
 	padding: 0;
 	}
@@ -83,7 +86,10 @@ figcaption {
   }
 
 .page-wrapper {
-	background-image: url("corona.png") no-repeat top left;
+	background-image: url("corona.png") no-repeat top left;  /*background-image: url("corona.png") no-repeat top left;*/
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top left;
 	padding: 0 175px 0 110px;
 	margin: 0;
 	position: relative;
